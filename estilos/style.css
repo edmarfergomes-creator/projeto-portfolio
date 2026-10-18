@@ -218,6 +218,19 @@ body {
   font-size: 1.1em;
  }
 
+ #projeto-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+ }
+
+ #projeto-container .projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+ }
+
  @media screen and (min-width: 768px) {
     #skill-container {
       grid-template-columns: 1fr 1fr;
